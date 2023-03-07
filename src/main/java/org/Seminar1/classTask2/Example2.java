@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 public class Example2 {
     public static void main(String[] args) {
-        // Дана последовательность N целых чисел. Найти кол-во положительных чисел, после которых следует отрицательное число.
         Scanner scanner = new Scanner(System.in);
         int N = scanner.nextInt();
         int count = 0;
